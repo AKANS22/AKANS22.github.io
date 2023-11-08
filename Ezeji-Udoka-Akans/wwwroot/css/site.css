@@ -1,18 +1,26 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
+/* Background image */
 body {
-  margin-bottom: 60px;
+    background-image: url('/img/h (1).jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #000000; /* Text color for the entire page (black) */
+    text-shadow: 2px 2px 4px rgb(128, 128, 128); /* Text shadow for readability */
 }
+
+/* Styles for headings and text */
+h1, h2, p {
+    color: #000000; /* Text color (black) */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for readability */
+}
+
+ul {
+    list-style: none; /* Remove default list bullet points */
+    padding: 0;
+}
+
+    ul li {
+        margin: 5px 0;
+        color: #000000; /* Text color (black) */
+    }
