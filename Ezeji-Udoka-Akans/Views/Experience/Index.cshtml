@@ -1,0 +1,33 @@
+﻿@using Ezeji_Udoka_Akans
+@using Ezeji_Udoka_Akans.Models
+
+
+@model List<ExperienceModel>
+
+@{
+    ViewData["Title"] = "Work Experience";
+}
+
+<h2>Work Experience</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Position</th>
+            <th>Company</th>
+            <th>Duration</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var experience in Model)
+        {
+            <tr>
+                <td>@experience.Position</td>
+                <td>@experience.Company</td>
+                <td>@experience.StartDate.ToString("MMM yyyy") - @experience.EndDate.ToString("MMM yyyy")</td>
+                <td>@experience.Description</td>
+            </tr>
+        }
+    </tbody>
+</table>
