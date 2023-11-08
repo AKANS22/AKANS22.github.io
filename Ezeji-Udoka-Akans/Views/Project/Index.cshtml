@@ -1,0 +1,40 @@
+﻿@using Ezeji_Udoka_Akans
+@using Ezeji_Udoka_Akans.Models
+
+
+@model List<ProjectModel>
+
+@{
+    ViewData["Title"] = "Projects";
+}
+
+<h2>Projects</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Tools</th>
+            <th>Role</th>
+            <th>Link</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var project in Model)
+        {
+            <tr>
+                <td>@project.Name</td>
+                <td>@project.Description</td>
+                <td>@project.Tools</td>
+                <td>@project.Role</td>
+                <td>@project.Link</td>
+
+
+
+
+            </tr>
+        }
+    </tbody>
+</table>

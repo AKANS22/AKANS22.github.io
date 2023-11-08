@@ -4,6 +4,7 @@
     {
         public string Description { get; set; }
         public string Skills { get; set; }
-
+        public string RateLevel { get; set; }
+        public int Rate { get; set; }
     }
 }

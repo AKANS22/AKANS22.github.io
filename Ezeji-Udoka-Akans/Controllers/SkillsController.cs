@@ -12,15 +12,93 @@ namespace Ezeji_Udoka_Akans.Controllers
             new SkillsModel
             {
                Description = "TECHNOLOGIES",
-               Skills = "C#\r\n• .NET\r\n• ASP.NET Core\r\nWEB API\r\n• Entity Framework\r\n• MySQL\r\n• Postman\r\n• Docker\r\n• JavaScript\r\n• HTML 5\r\n• CSS"
+               Skills = "C#",
+               RateLevel = "1-10",
+               Rate = 7
 
 
             },
-
             new SkillsModel
             {
-               Description = "TOOLS",
-               Skills      = "• Visual Studio\r\n• GitHub\r\n• Azure\r\n• VS Cod"
+               Description = "TECHNOLOGIES",
+               Skills      = " ASP.NET Core WEB API",
+               RateLevel = "1-10",
+               Rate = 7
+
+            },
+             new SkillsModel
+            {
+               Description = "TECHNOLOGIES",
+               Skills      = " ASP.NET Core MVC",
+               RateLevel = "1-10",
+               Rate = 5
+
+            },
+              new SkillsModel
+            {
+               Description = "TECHNOLOGIES",
+               Skills      = " Entity Framework",
+               RateLevel = "1-10",
+               Rate = 7
+
+            },
+               new SkillsModel
+            {
+               Description = "TECHNOLOGIES",
+               Skills      = " MySQL",
+               RateLevel = "1-10",
+               Rate = 7
+
+            },
+
+                new SkillsModel
+            {
+               Description = "TECHNOLOGIES",
+               Skills      = "  Postman",
+               RateLevel = "1-10",
+               Rate = 7
+
+            },
+                 new SkillsModel
+            {
+               Description = "TECHNOLOGIES",
+               Skills      = " Dorker",
+               RateLevel = "1-10",
+               Rate = 7
+
+            },
+
+
+                 new SkillsModel
+            {
+               Description = "TECHNOLOGIES",
+               Skills      = "JavaScript",
+               RateLevel = "1-10",
+               Rate = 6
+
+            },
+
+                 new SkillsModel
+            {
+               Description = "TECHNOLOGIES",
+               Skills      = "CSS",
+               RateLevel = "1-10",
+               Rate = 6
+
+            },
+
+                 new SkillsModel
+            {
+               Description = "TECHNOLOGIES",
+               Skills      = "HTML",
+               RateLevel = "1-10",
+               Rate = 6
+
+            },
+            new SkillsModel
+            {
+               Description = "Tools",
+               Skills      = "• Visual Studio\r\n• GitHub\r\n• Azure\r\n• VS Code"
 
             },
         };
